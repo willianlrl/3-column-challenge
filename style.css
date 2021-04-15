@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body
+{
+    font-size: 15px;
+    height: 99vh;
+    margin:0px;
+    color: white;
+    
+}
+
+.mobile
+{
+    width:375px;
+}
+
+.desktop
+{
+    width:1440px;
+}
+
+.conteudo
+{
+    font-family:"Big Shoulders Display";
+    display: flex;
+    min-height:40vh;
+    padding-top:31vh;
+    padding-right: 30vw;
+    padding-left: 31vw;
+}
+
+
+.area1
+{
+
+    background-color: hsl(31,77%,52%);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius:10px;
+    padding:5%;
+
+
+}
+
+.area1 button
+{
+    color:  hsl(31,77%,52%);
+}
+
+.area2
+{
+
+    background-color: hsl(184, 100%, 22%);
+    padding:5%;
+
+}
+
+.area2 button
+{
+    color:  hsl(184, 100%, 22%);
+}
+
+.area3
+{
+
+    background-color: hsl(179, 100%, 13%);
+    
+    border-bottom-right-radius:10px;
+    border-top-right-radius:10px;
+    padding:5%;
+
+}
+
+.area3 button
+{
+    color:  hsl(179, 100%, 13%);;
+}
+
+button
+{
+    border-radius:20px;
+    background-color: white;
+    margin-bottom:10px;
+    min-width:6vw;
+    min-height: 4vh;
+    box-sizing: border-box;
+    margin-top:5vh;
+    padding: 10px;
+    font-family: "Lexend Deca";
+    border-color: white;
+    border-style:solid;
+    flex-wrap: nowrap;
+}
+
+button:hover
+{
+    background-color: rgba(0,0,0, 0);
+    color:white;
+    
+    
+}
+
+button p
+{
+    flex-wrap: nowrap;
+}
+
+.attribution
+{
+    
+    margin-bottom:0px;
+}
+
+@media(max-width: 500px)
+{
+    .conteudo
+    {
+        display: inline-block;
+    }
+
+    .area1
+    {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .area3
+    {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+
+@media(max-width: 1000px)
+{
+    .conteudo
+    {
+        padding-right:10vw;
+        padding-left:10vw;
+    }
+}
